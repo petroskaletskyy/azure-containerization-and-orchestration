@@ -8,6 +8,15 @@
 4. Verify the deployment by accessing the web application via the public IP address provided by ACI.
 5. Remove the ACI container after verifying the deployment to stop billing.
 
+![img](/screenshots/1_1.png)
+![img](/screenshots/1_2.png)
+![img](/screenshots/1_3.png)
+![img](/screenshots/1_4.png)
+![img](/screenshots/1_5.png)
+![img](/screenshots/1_6.png)
+![img](/screenshots/1_7.png)
+![img](/screenshots/1_8.png)
+
 ## Practical Task 2: Configure Environment Variables in ACI via Azure Portal
 
 1. Modify your Docker image to read configuration values from environment variables,  ensuring minimal environmental complexity.
