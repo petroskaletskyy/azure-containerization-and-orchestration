@@ -40,6 +40,15 @@
 2. Manually scale out to the minimum number of instances required (e.g., 2–3) to test load distribution.
 3. Stop all ACI instances after completing the testing to reduce ongoing costs.
 
+![img](/screenshots/3_1.png)
+![img](/screenshots/3_2.png)
+![img](/screenshots/3_3.png)
+![img](/screenshots/3_4.png)
+![img](/screenshots/3_5.png)
+![img](/screenshots/3_6.png)
+![img](/screenshots/3_7.png)
+![img](/screenshots/3_8.png)
+
 ## Practical Task 4: Secure a Docker Container in ACI with Managed Identity via Azure Portal
 
 1. Deploy a Docker container to Azure Container Instances using the existing lightweight ACI setup from previous tasks.
