@@ -24,6 +24,16 @@
 3. Verify that the application is correctly using the environment variables by checking its output.
 4. Remove the ACI container after verifying that the application correctly uses the environment variables.
 
+![img](/screenshots/2_1.png)
+![img](/screenshots/2_2.png)
+![img](/screenshots/2_3.png)
+![img](/screenshots/2_4.png)
+![img](/screenshots/2_5.png)
+![img](/screenshots/2_6.png)
+![img](/screenshots/2_7.png)
+![img](/screenshots/2_8.png)
+![img](/screenshots/2_9.png)
+
 ## Practical Task 3: Scale Out with Azure Container Instances via Azure Portal
 
 1. Deploy a stateless Docker container to Azure Container Instances using a lightweight configuration (e.g., B1s instances).
