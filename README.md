@@ -56,6 +56,17 @@
 3. Retrieve only a single secret from Azure Key Vault for testing purposes.
 4. Remove the ACI container after verifying secure access.
 
+![img](/screenshots/4_1.png)
+![img](/screenshots/4_2.png)
+![img](/screenshots/4_3.png)
+![img](/screenshots/4_4.png)
+![img](/screenshots/4_5.png)
+![img](/screenshots/4_6.png)
+![img](/screenshots/4_7.png)
+![img](/screenshots/4_8.png)
+![img](/screenshots/4_9.png)
+![img](/screenshots/4_10.png)
+
 ## Practical Task 5: Deploy a Kubernetes Cluster with AKS via Azure Portal
 
 1. Create an Azure Kubernetes Service (AKS) cluster with the smallest VM size (e.g., B2s) and the minimum number of nodes (e.g., 1–2).
