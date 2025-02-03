@@ -86,6 +86,17 @@
 2. Reuse the AKS cluster from Task 5 to deploy the application using a Kubernetes deployment and service manifest file.
 3. Test the application for a limited time and remove the deployment afterward.
 
+![img](/screenshots/6_1.png)
+![img](/screenshots/6_2.png)
+![img](/screenshots/6_3.png)
+![img](/screenshots/6_4.png)
+![img](/screenshots/6_5.png)
+![img](/screenshots/6_6.png)
+![img](/screenshots/6_7.png)
+![img](/screenshots/6_8.png)
+![img](/screenshots/6_9.png)
+![img](/screenshots/6_10.png)
+
 ## Practical Task 7: Configure and Use ConfigMaps and Secrets in AKS
 
 1. Create a ConfigMap to store non-sensitive configuration data with only the required key-value pairs for the application.
