@@ -104,6 +104,14 @@
 3. Update the application deployment to use the ConfigMap and Secret.
 4. Remove the ConfigMap, Secret, and deployment after testing.
 
+![img](/screenshots/7_1.png)
+![img](/screenshots/7_2.png)
+![img](/screenshots/7_3.png)
+![img](/screenshots/7_4.png)
+![img](/screenshots/7_5.png)
+![img](/screenshots/7_6.png)
+![img](/screenshots/7_7.png)
+
 ## Practical Task 8: Scale Applications in AKS
 
 1. Deploy a stateless application to the AKS cluster using minimal resource specifications.

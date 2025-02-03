@@ -39,3 +39,4 @@ terraform.rc
 
 */.kube
 *.DS_Store
+**/yaml-files
