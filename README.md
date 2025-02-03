@@ -74,6 +74,12 @@
 3. Deploy a lightweight Nginx application for verification.
 4. Delete the AKS cluster immediately after testing to avoid additional VM and cluster costs.
 
+![img](/screenshots/5_1.png)
+![img](/screenshots/5_2.png)
+![img](/screenshots/5_3.png)
+![img](/screenshots/5_4.png)
+![img](/screenshots/5_5.png)
+
 ## Practical Task 6: Deploy a Containerized Application on AKS
 
 1. Build a lightweight Docker image for a simple web application (e.g., a Node.js app with minimal dependencies) and push it to Azure Container Registry (ACR).
