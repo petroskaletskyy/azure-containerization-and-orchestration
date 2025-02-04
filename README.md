@@ -119,6 +119,19 @@
 3. Set up Horizontal Pod Autoscaler (HPA) with reasonable CPU usage thresholds to minimize pod creation.
 4. Simulate load on the application for a short duration and remove the deployment after observing the scaling behavior.
 
+![img](/screenshots/8_1.png)
+![img](/screenshots/8_2.png)
+![img](/screenshots/8_3.png)
+![img](/screenshots/8_4.png)
+![img](/screenshots/8_5.png)
+![img](/screenshots/8_6.png)
+![img](/screenshots/8_7.png)
+![img](/screenshots/8_8.png)
+![img](/screenshots/8_9.png)
+![img](/screenshots/8_10.png)
+![img](/screenshots/8_11.png)
+![img](/screenshots/8_12.png)
+
 ## Practical Task 9: Rolling Update of an Application in AKS
 
 1. Deploy a lightweight version of your application to the AKS cluster.
