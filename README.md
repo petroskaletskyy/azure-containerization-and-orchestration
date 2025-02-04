@@ -139,6 +139,19 @@
 3. Perform a rolling update using kubectl set image with minimal replicas to reduce resource usage.
 4. Verify the update process quickly and remove the deployment after the update.
 
+![img](/screenshots/9_1.png)
+![img](/screenshots/9_2.png)
+![img](/screenshots/9_3.png)
+![img](/screenshots/9_4.png)
+![img](/screenshots/9_5.png)
+![img](/screenshots/9_6.png)
+![img](/screenshots/9_7.png)
+![img](/screenshots/9_8.png)
+![img](/screenshots/9_9.png)
+![img](/screenshots/9_10.png)
+![img](/screenshots/9_11.png)
+![img](/screenshots/9_12.png)
+
 ## Bonus task. GitOps with AKS
 
 1. Setup ArgoCD on Azure Kubernetes Services

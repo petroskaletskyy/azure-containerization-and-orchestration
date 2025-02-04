@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Container App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        h1 {
+            color: #0078D4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .info {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Azure Container Instances!</h1>
+        <p>This is a simple Flask application running inside an Azure container.</p>
+        
+        <h2>Cloud Computing</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/320px-Microsoft_Azure_Logo.svg.png" alt="Azure Logo">
+
+        <!--<h2>Container information</h2>
+        <p class="info">Container Name: {{ container_name }}</p>
+        <p class="info">Container IP: {{ local_ip_address }}</p>
+        <p class="info">Public IP: {{ ip_address }}</p> -->
+
+        <h2>Our Hosted App</h2>
+        <img src="{{ url_for('static', filename='cloud-image.jpg') }}" alt="Cloud Image">
+        
+        <p>Deployed using Azure Container Instances 🚀</p>
+    </div>
+</body>
+</html>
