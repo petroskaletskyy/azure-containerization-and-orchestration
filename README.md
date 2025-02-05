@@ -156,3 +156,16 @@
 
 1. Setup ArgoCD on Azure Kubernetes Services
 2. Perform image update on cluster
+
+![img](/screenshots/10_1.png)
+![img](/screenshots/10_2.png)
+![img](/screenshots/10_3.png)
+![img](/screenshots/10_4.png)
+![img](/screenshots/10_5.png)
+![img](/screenshots/10_6.png)
+![img](/screenshots/10_7.png)
+![img](/screenshots/10_8.png)
+![img](/screenshots/10_9.png)
+![img](/screenshots/10_10.png)
+![img](/screenshots/10_11.png)
+![img](/screenshots/10_12.png)
