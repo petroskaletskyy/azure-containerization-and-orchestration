@@ -117,28 +117,28 @@ EOF
   depends_on = [azurerm_kubernetes_cluster.aks]
 }
 
-resource "kubectl_manifest" "argocd_app" {
-  yaml_body  = <<YAML
+resource "kubectl_manifest" "gitops-app" {
+  yaml_body = <<YAML
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: test-flask-app
+  name: gitops-app
+  namespace: argocd
 spec:
-  destination:
-    namespace: test
-    server: https://kubernetes.default.svc
-  source:
-    path: manifests/
-    repoURL: https://github.com/petroskaletskyy/git-ops-test-repo.git
-    targetRevision: main
-  sources: []
   project: default
+  source:
+    repoURL: "https://github.com/petroskaletskyy/git-ops-test-repo.git"
+    targetRevision: HEAD
+    path: manifests
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
   syncPolicy:
     automated:
-      prune: false
-      selfHeal: false
+      prune: true
+      selfHeal: true
     syncOptions:
-      - CreateNamespace=true
+      - CreateNamespace=true  
 YAML
   depends_on = [helm_release.argocd]
 }
